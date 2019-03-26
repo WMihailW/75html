@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header{
+    padding: 1px;
+    background-image: url(../images/2.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header div{
+padding: 1px;
+background-color: rgba(214, 214, 214, 0.62)
+
+}
+header div a{
+    display: block;
+    width: 100px;
+    margin: 50px auto;
+}
+header div a img{
+    width: 100px;
+}
+main > div{
+    height: 200px;
+    width: 300px;
+    margin: 50px auto;
+    background-color: #282a36;
+    border-radius: 6px;
+    box-shadow: 0 10px 18px rgba(0, 0, 0, .75);
+    padding: 3px 10px;
+    
+   }
+
+   main > div > div:first-child span{
+       display: inline-block;
+       width: 10px;
+       height: 10px;
+       border-radius: 50%;
+    
+    
+
+   }
+   main > div > div:first-child span:nth-child(1){
+background-color: red;
+}
+main > div > div:first-child span:nth-child(2){
+    background-color: rgb(255, 251, 0);
+    }
+    main > div > div:first-child span:nth-child(3){
+        background-color: rgb(0, 255, 34);
+        }
+        main > div > div:last-child{
+padding: 10px;
+        }
+        main > div > div:last-child p{
+         margin-top: 2px;
+         margin-bottom: 2px;
+        }
+        main > div > div:last-child p i{
+            font-style: normal;
+            color: #607979;
+            display: inline-block;
+            margin-right: 5px;
+        }
+        main > div > div:last-child p em{
+            font-style: normal;
+            color: #f173bd;
+            display: inline-block;
+            margin-right: 5px;
+
+        }
+        main > div > div:last-child p b{
+            font-style: normal;
+            color: #f173bd;
+            display: inline-block;
+            margin-right: 5px;
+            font-weight: 300;
+        }
+        main > div > div:last-child p strong{
+            font-style: normal;
+            color: #ffffff;
+            display: inline-block;
+            margin-right: 5px;
+            font-weight: 400;
+            margin: 10px;
+        }
+        main > div > div:last-child p u{
+            font-style: normal;
+            color: #61ccce;
+            text-decoration: unset;
+            display: inline-block;
+            font-weight: 300;
+            margin-left: 25px;
+        }
+        main > div > div:last-child p span{
+            font-style: normal;
+            color: #00ff2a;
+            display: inline-block;
+            font-weight: 300;
+            margin-left: 5px;
+        }
